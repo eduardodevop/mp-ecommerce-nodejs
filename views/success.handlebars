@@ -47,15 +47,21 @@
           <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_PaEutX.json" background="transparent"
             speed="1" style="width: 300px; height: 300px; margin: 50px auto;" autoplay></lottie-player>
 
-          <ul>
-            <li>
-              <b>payment_method_id:</b>&nbsp;{{payment_method_id}}
-              <b>external_reference:</b>&nbsp;{{external_reference}}
-              <b>payment_id:</b>&nbsp;{{payment_id}}
-              <b>collection_id:</b>&nbsp;{{collection_id}}
-            </li>
-          </ul>
 
+          <div>
+            <b>payment_type:</b>&nbsp;{{payment_type}}
+          </div>
+          <div>
+            <b>external_reference:</b>&nbsp;{{external_reference}}
+          </div>
+          <div>
+            <b>payment_id:</b>&nbsp;{{payment_id}}
+          </div>
+          <div>
+            <b>collection_id:</b>&nbsp;{{collection_id}}
+          </div>
+
+          <br>
           <a href="/">
             <button type="submit" class="mercadopago-button" formmethod="get">Regresar al inicio</button>
           </a>
